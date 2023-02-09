@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>党史学习登录</title>
+    <link href="IMGES/logo.png" rel="icon">
+    <link href="CSS/login.css" rel="stylesheet">
+    <script src="JS/login.js"></script>
+</head>
+
+<body>
+    <!-- 请输入密码：<input type="password" id="p1"><br/> 请确认密码：
+    <input type="password" id="p2" onblur="check(this)"><br/>
+    <div id="tip"> </div> -->
+    <div class="control">
+        <div class="item">
+            <div class="active">登&nbsp;录</div>
+            <div>注&nbsp;册</div>
+        </div>
+        <div class="content">
+            <div style="display: block;">
+                <p>账号</p>
+                <input type="text" placeholder="username" />
+                <a href="#" onclick="warn()">忘记账号？</a>
+                <p>密码</p>
+                <input type="password" placeholder="password" />
+                <a href="#" onclick="warn()">忘记密码？</a>
+                <br/>
+                <input type="submit" value="登&nbsp;&nbsp;录" onclick="finish1()" />
+            </div>
+            <div>
+                <p>您的身份</p><br /> 共产党员
+                <input type="radio" name="n" checked="checked"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;共青团员
+                <input type="radio" name="n"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;群众
+                <input type="radio" name="n">
+                <p>用户名</p>
+                <input type="text" placeholder="username" />
+                <a href="#" style="font-size: 13px;">输入5-12个字符</a>
+
+                <p>密码</p>
+                <input type="password" placeholder="password" id="p1">
+                <p>再次输入密码</p>
+                <input type="password" placeholder="password" id="p2" onblur="check(this)">
+                <div id="tip"> </div>
+                <p>邮箱</p>
+                <input type="text" placeholder="email" />@
+                <select>
+                    <option selected="selected">163.com</option>
+                    <option>google.com</option>
+                    <option>126.com</option>
+                    <option>qq.com</option>
+                    <option>其它</option>
+
+                </select>
+                <br/>
+                <input type="submit" value="注&nbsp;&nbsp;册" onclick="finish2()" />
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+* {
+    font-family: "楷体"
+}
+
+.filmhead {
+    width: 100%;
+    height: 100px;
+    background: rgb(248, 86, 86, .7);
+    margin: 10px 0px 50px 0px;
+}
+
+.filmhead h4 {
+    width: 100%;
+    height: 80px;
+    font-size: 75px;
+    color: red;
+    text-align: center;
+    line-height: 100px;
+}
+
+.idol_title {
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+    background: rgb(223, 181, 181, .8);
+}
+
+.idol_title h4 {
+    color: red;
+    font-size: 60px;
+    text-align: center;
+}
+
+.daxuexi {
+    width: 1150px;
+    height: 1050px;
+    margin: 30px auto;
+    background: rgba(245, 120, 120, 0.6);
+    margin-bottom: 100px;
+}
+
+.dxxpic {
+    width: 80%;
+    height: 500px;
+    margin: 10px auto;
+    background: url(../IMGES/qndxx1.png) no-repeat;
+}
+
+.dxxpic:hover {
+    box-shadow: 0 0 10px 10px rgb(243, 130, 115);
+}
+
+.dxxdetail {
+    float: left;
+    width: 58%;
+    height: 500px;
+    margin: 0 30px;
+    padding: 20px;
+    background: rgb(70, 68, 68, .3);
+}
+
+.dxxdetail:hover {
+    box-shadow: 0 0 10px 10px rgb(243, 130, 115);
+}
+
+.dxxpic2 {
+    float: right;
+    width: 30%;
+    height: 500px;
+    margin: 0 35px;
+    background: url(../IMGES/qndxx4.png);
+}
+
+.dxxpic2:hover {
+    box-shadow: 0 0 10px 10px rgb(243, 130, 115);
+}
+
+.hua {
+    width: 1150px;
+    height: 850px;
+    margin: 30px auto;
+    padding: 30px 0;
+    background: rgba(245, 126, 126, 0.6);
+}
+
+.huadet {
+    width: 100%;
+    height: 95px;
+    background: rgb(135, 206, 235, .7);
+}
+
+.huadet p {
+    font-size: 25px;
+    text-align: center;
+}
+
+.huapic {
+    width: 95%;
+    height: 670px;
+    margin: 20px auto;
+    background: rgb(188, 227, 243, .7);
+}
+
+.huapicc {
+    float: left;
+    width: 40%;
+    height: 250px;
+    margin: 50px;
+}
+
+.huapicc img {
+    width: 100%;
+    height: 100%;
+}
+
+.huapicc img:hover {
+    box-shadow: 0 0 10px 10px rgb(184, 182, 182);
+}

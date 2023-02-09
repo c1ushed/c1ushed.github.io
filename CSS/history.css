@@ -1,0 +1,264 @@
+.his_banner {
+    margin: 50px 0;
+    width: 100%;
+    height: 600px;
+    background: rgb(248, 4, 4, .7);
+    opacity: .9;
+    /* filter: blur(20px); */
+}
+
+.banl {
+    float: left;
+    width: 20%;
+    height: 100%;
+    background: url(../IMGES/bg8.png);
+    filter: blur(10px);
+}
+
+.banmain {
+    float: left;
+    width: 60%;
+    height: 100%;
+    background: pink;
+    background: url(../IMGES/bg8.png);
+    box-shadow: 0 0 10px 10px rgb(241, 196, 143);
+    background-size: cover;
+    transition: all .5s ease-in-out;
+}
+
+.banmain:hover {
+    background: url(../IMGES/banmain.png);
+    background-size: cover;
+}
+
+.banr {
+    float: right;
+    width: 20%;
+    height: 100%;
+    background: url(../IMGES/bg8.png);
+    filter: blur(10px);
+}
+
+.detail {
+    width: 100%;
+    height: 2300px;
+    background-color: rgba(255, 17, 0, 0.1);
+    padding: 10px 0;
+}
+
+.detail h4 {
+    /* display: block; */
+    font-family: "楷体";
+    width: 100%;
+    height: 70px;
+    margin: 40px auto;
+    background: rgb(235, 115, 115);
+    text-align: center;
+    font-size: 70px;
+}
+
+.detailleft {
+    width: 100%;
+    height: 400px;
+    margin: 20px 0;
+    /* background: red; */
+    opacity: .8;
+}
+
+.boxdetaill {
+    width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+    /* background: pink; */
+}
+
+.depicl {
+    float: left;
+    width: 50%;
+    height: 100%;
+    /* background: skyblue; */
+    border-right: 3px solid #fff;
+    transition: all .5s ease-in-out;
+}
+
+.yd54 {
+    background: url(../IMGES/54yd.png);
+}
+
+.yd54:hover {
+    background-position: center;
+}
+
+.dewordl {
+    padding: 30px;
+    float: right;
+    width: 50%;
+    height: 100%;
+    background: rgb(187, 201, 206);
+    transition: all .5s ease-in-out;
+}
+
+.dewordl:hover {
+    box-shadow: 0 0 20px 20px rgb(136, 136, 136, .8);
+}
+
+.dewordl h4 {
+    font-family: "楷体";
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background: rgb(235, 115, 115);
+    text-align: center;
+    font-size: 50px;
+}
+
+.dewordl p {
+    font: 18px "楷体";
+}
+
+.detailright {
+    width: 100%;
+    height: 400px;
+    margin: 20px 0;
+    /* background: red; */
+    opacity: .8;
+}
+
+.boxdetailr {
+    width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+    /* background: pink; */
+}
+
+.depicr {
+    float: right;
+    width: 50%;
+    height: 100%;
+    /* background: skyblue; */
+    transition: all .5s ease-in-out;
+}
+
+.dewordr {
+    padding: 30px;
+    float: left;
+    width: 50%;
+    height: 100%;
+    border-right: 3px solid #fff;
+    background: rgb(187, 201, 206);
+    transition: all .5s ease-in-out;
+}
+
+.dewordr:hover {
+    box-shadow: 0 0 20px 20px rgb(136, 136, 136, .8);
+}
+
+.dewordr h4 {
+    font-family: "楷体";
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background: rgb(235, 115, 115);
+    text-align: center;
+    font-size: 50px;
+}
+
+.dewordr p {
+    font: 18px "楷体";
+}
+
+.chuangjian {
+    background: url(../IMGES/road1.png);
+    background-size: cover;
+}
+
+.chuangjian:hover {
+    background-position: center;
+}
+
+.dageming {
+    background: url(../IMGES/dgm.png) no-repeat;
+}
+
+.dageming:hover {
+    background-position: center;
+}
+
+.tudigeming {
+    background: url(../IMGES/tdgm.jpg) no-repeat;
+}
+
+.tudigeming:hover {
+    background-position: center;
+}
+
+.jiefang {
+    background: url(../IMGES/chengli.png) no-repeat;
+}
+
+.jiefang:hover {
+    background-position: center;
+}
+
+.jjhf {
+    background: url(../IMGES/jjhf.png) no-repeat;
+}
+
+.jjhf:hover {
+    background-position: center;
+}
+
+.gaizao {
+    background: url(../IMGES/gaizao.png) no-repeat;
+    background-size: cover;
+}
+
+.gaizao:hover {
+    background-position: center;
+}
+
+.yzd {
+    background: url(../IMGES/yzd.png);
+    background-size: cover;
+}
+
+.yzd:hover {
+    background-position: center;
+}
+
+.wenge {
+    background: url(../IMGES/wenge.png) no-repeat;
+}
+
+.wenge:hover {
+    background-position: center;
+}
+
+.sanzhong {
+    background: url(../IMGES/sanzhong.png) no-repeat;
+    background-size: cover;
+}
+
+.sanzhong:hover {
+    background-position: center;
+}
+
+.tuopin {
+    background: url(../IMGES/tuopin.png) no-repeat;
+    background-size: cover;
+}
+
+.tuopin:hover {
+    background-position: center;
+}
+
+.zhongguomeng {
+    background: url(../IMGES/zgm2.png) no-repeat;
+    background-size: cover;
+}
+
+.zhongguomeng:hover {
+    background-position: center;
+}

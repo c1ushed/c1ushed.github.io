@@ -1,0 +1,113 @@
+* {
+    font-family: "楷体"
+}
+
+.filmhead {
+    width: 100%;
+    height: 100px;
+    background: rgb(248, 86, 86, .7);
+    margin: 10px 0px 50px 0px;
+}
+
+.filmhead h4 {
+    width: 100%;
+    height: 80px;
+    font-size: 75px;
+    color: red;
+    text-align: center;
+    line-height: 100px;
+}
+
+.idol_title {
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+    background: rgb(223, 181, 181, .8);
+}
+
+.idol_title h4 {
+    color: red;
+    font-size: 60px;
+    text-align: center;
+}
+
+.zhuanti {
+    width: 75%;
+    height: 590px;
+    margin: 20px auto;
+    background: rgb(186, 236, 243, .7);
+}
+
+.idol_pic {
+    width: 100%;
+    height: 370px;
+}
+
+img {
+    width: 30%;
+}
+
+.img2 {
+    width: 100%;
+    margin: 0 auto;
+    /* background: red; */
+    text-align: center;
+}
+
+.img1 {
+    /* display: block; */
+    float: left;
+}
+
+.img3 {
+    /* display: block; */
+    float: right;
+}
+
+.idol_cmd {
+    width: 95%;
+    height: 200px;
+    padding: 20px;
+    margin: 0 auto;
+    background: rgb(119, 118, 118, .5);
+}
+
+.idol_pic2 {
+    width: 100%;
+    height: 450px;
+}
+
+.zhuanti2 {
+    width: 75%;
+    height: 670px;
+    margin: 20px auto;
+    background: rgb(186, 236, 243, .7);
+}
+
+.idol_cmd2 {
+    width: 95%;
+    height: 210px;
+    padding: 20px;
+    margin: 0 auto;
+    background: rgb(119, 118, 118, .5);
+}
+
+.idol_pic3 {
+    width: 100%;
+    height: 450px;
+}
+
+.zhuanti3 {
+    width: 75%;
+    height: 700px;
+    margin: 20px auto;
+    background: rgb(186, 236, 243, .7);
+}
+
+.idol_cmd3 {
+    width: 95%;
+    height: 230px;
+    padding: 20px;
+    margin: 0 auto;
+    background: rgb(119, 118, 118, .5);
+}
